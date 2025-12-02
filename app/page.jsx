@@ -34,24 +34,24 @@ export default function Home() {
 
   return (
     <main className="container">
-      <h1>Contador da Formatura – Victor Hugo – Turma: INFO 6A - 2025 </h1>
+      <h1>Contador da Formatura – Renan Sena – Turma: INFO 6A - 2025 </h1>
 
       {!finished ? (
         <div className="contador">
           <p>
             {days}d {hours}h {minutes}m {secs}s
           </p>
-          <span>⏳Falta pouco para meus pesadelos se tornarem realidade⏳</span>
+          <span>jaja acaba em</span>
         </div>
       ) : (
         <h2 className="mensagem">🎉 Parabéns, chegou o grande dia da nossa formatura! 🎉</h2>
       )}
 
       <p className="texto">
-        Depois da formatura, pretendo não morrer de fome🙏
+        Depois da formatura, fazer concurso de coveiro
       </p>
 
-      <img src="/happy-to-dumb-happy.gif" alt="Formatura" className="imagem" />
+      <img src="/gordao-xj-2.jpg" alt="Formatura" className="imagem" />
 
     </main>
   );
