@@ -34,8 +34,9 @@ export default function Home() {
 
   return (
     <main className="container">
-      <h1>Contador da Formatura – Renan Sena – Turma: INFO 6A - 2025 </h1>
-
+      <h1>Contador da Formatura </h1>
+<h1>Renan Sena</h1>
+<h1> Turma: INFO 6A - 2025 </h1>
       {!finished ? (
         <div className="contador">
           <p>
